@@ -38,7 +38,7 @@ def create_drink(answers):
   for key, value in ingredients.items():
    if answers[key]:
       #drink.append(random.choice(value))
-      print "I got your back, Jack. Here's a {0}".format(ingredients.values())
+      print "I got your back, Jack. Here's a {0} for something {1}".format(ingredients.values(), ingredients.keys())
 
 
   # for key, value in ingredients.items():
