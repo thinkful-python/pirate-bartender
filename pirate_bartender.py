@@ -33,12 +33,12 @@ def smart_bartender():
 
 def create_drink(answers):
   """ Use the answers to combine with ingredients to create drink """
-  #drink = []
+  drink = []
   print "\n Great, now let's add a little flavor to the mix"
   for key, value in ingredients.items():
    if answers[key]:
-      #drink.append(random.choice(value))
-      print "I got your back, Jack. Here's a {0}".format(ingredients[key],[random.choice])
+      drink.append(random.choice(value))
+      #print "I got your back, Jack. Here's a {0}".format([random.choice(ingredients[key])
   return    
 
   # for key, value in ingredients.items():
